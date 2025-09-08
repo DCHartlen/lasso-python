@@ -1,0 +1,243 @@
+
+
+ ***************************************************************
+ *            ANSYS 2022 R2          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2022 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 09/08/2025      Time: 19:40:43  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 03/10/2022    Time: 06:59:30           |
+     |  Version : smp s R13                              |
+     |  Revision: R13.1-138-g8429c8a10f                  |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    Interactive Graphics                           |
+     |    ANSYSLIC enabled                               |
+     |    MADYMO indirect coupling (7.2 or higher)       |
+     |                                                   |
+     |  Licensed to: University of Waterloo -- 1081066   |
+     |  Issued by  : Pascale.SaneGuttin_08122025         |
+     |                                                   |
+     |  Platform   : WINDOWS X64 (SSE2)                  |
+     |  OS Level   : Windows 8/10 & Srv 2016/2019 uom    |
+     |  Compiler   : Intel Fortran XE 2019 MSVC++ 2019   |
+     |  Hostname   : Trauma118                           |
+     |  Precision  : Single precision (I4R4)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+
+ Command line options: i=C:\Users\DCHartlen\Desktop\DEM_Test_Model\R1311\00_dem_test_model.k 
+                       ncpu=1 
+                       memory=20m
+
+ Input file: C:\Users\DCHartlen\Desktop\DEM_Test_Model\R1311\00_dem_test_model.k             
+
+ The native file format       : 32-bit small endian
+ Memory size from command line:    20000000
+ allocating  memory to    20000000 d         544 Initial allocation
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   09/08/25 19:40:43
+ expanding   memory to       65000 d        9798  
+ expanding   memory to       97500 d        9798  
+ expanding   memory to      117694 d       69798  
+ expanding   memory to      146216 d       77798  
+ expanding   memory to      168216 d       77798  
+ expanding   memory to      273216 d       77798  
+ expanding   memory to      325872 d       77798  
+
+ Memory required to process keyword     :     325872  
+ Additional dynamic memory required     :      80106  
+
+ contracting memory to           1 d       80084 end of keyword reader
+
+ LS-DYNA will perform a structural only analysis 
+
+ DEM Test Model                                                          
+                    ls-dyna smp s R13 R13.1_138_8429c8a date 03/10/2022
+ expanding   memory to        2001 d         988 material, node and element data
+ expanding   memory to        2071 d        1004 material properties
+ expanding   memory to        2085 d        2070 gradient of damage data
+ expanding   memory to        2107 d        3731 user control for contact interfaces
+ contracting memory to        2087 d        3732 thermal expansion 0
+ expanding   memory to        2089 d        3733 cross-sectional force definitions 0
+ expanding   memory to        2111 d        3740 temp index array for node sorting
+ contracting memory to        2089 d        3766 just because?
+ expanding   memory to        4091 d       11542 load curve data
+ contracting memory to        2097 d       11542 user_define_loading_set
+ expanding   memory to        2297 d       11542 regularize time history data
+ contracting memory to        2101 d       11542 *DEFINE_ELEMENT_DEATH
+ expanding   memory to        3145 d       11581 implicit contact 1
+ contracting memory to        3101 d       11687 contact segment data 1
+ expanding   memory to        3211 d       11687 contact segment data 3
+ contracting memory to        2101 d       62577 contact definition
+ expanding   memory to        2105 d       63120 contact friction
+ expanding   memory to        2205 d       63735 rigid bodies for disp. termination
+ expanding   memory to        2524 d       63735 save d3plot control data
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to begin solution      :     326K
+ Additional dynamically allocated memory:     132K
+                                   Total:     458K
+       1 t 0.0000E+00 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+       1 t 0.0000E+00 dt 8.50E-07 write d3plot file            09/08/25 19:40:43
+    5000 t 4.2515E-03 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   10000 t 8.5039E-03 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   15000 t 1.2756E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   20000 t 1.7009E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   23517 t 2.0000E-02 dt 8.50E-07 write d3plot file            09/08/25 19:40:43
+   25000 t 2.1261E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   30000 t 2.5514E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   35000 t 2.9766E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   40000 t 3.4018E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   45000 t 3.8271E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   47033 t 4.0000E-02 dt 8.50E-07 write d3plot file            09/08/25 19:40:43
+   50000 t 4.2523E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:43
+   55000 t 4.6776E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+   60000 t 5.1028E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+   65000 t 5.5280E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+   70000 t 5.9533E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+   70549 t 6.0000E-02 dt 8.50E-07 write d3plot file            09/08/25 19:40:44
+   75000 t 6.3785E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+   80000 t 6.8038E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+   85000 t 7.2290E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+   90000 t 7.6542E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+   94065 t 8.0000E-02 dt 8.50E-07 write d3plot file            09/08/25 19:40:44
+   95000 t 8.0795E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+  100000 t 8.5047E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+  105000 t 8.9300E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+  110000 t 9.3552E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+  115000 t 9.7804E-02 dt 8.50E-07 flush i/o buffers            09/08/25 19:40:44
+  117581 t 9.9999E-02 dt 8.50E-07 write d3plot file            09/08/25 19:40:44
+ 
+ *** termination time reached ***
+  117581 t 1.0000E-01 dt 8.50E-07 write d3dump01 file          09/08/25 19:40:44
+  117581 t 1.0000E-01 dt 8.50E-07 write d3plot file            09/08/25 19:40:44
+
+ N o r m a l    t e r m i n a t i o n                          09/08/25 19:40:44
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     326K
+ Additional dynamically allocated memory:     134K
+                                   Total:     460K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     1.6000E-02    0.65
+    KW Reading ......... 0.0000E+00    0.00     1.0000E-03    0.04
+    KW Writing ......... 0.0000E+00    0.00     9.0000E-03    0.37
+  Initialization ....... 1.0000E+00   50.00     1.2160E+00   49.65
+    Init Proc Phase 1 .. 0.0000E+00    0.00     1.2000E-02    0.49
+    Init Proc Phase 2 .. 0.0000E+00    0.00     1.0000E-03    0.04
+  Element processing ... 0.0000E+00    0.00     1.2900E-01    5.27
+    ISO Shells ......... 0.0000E+00    0.00     5.0000E-03    0.20
+    E Other ............ 0.0000E+00    0.00     4.1000E-02    1.67
+  Binary databases ..... 0.0000E+00    0.00     1.1000E-02    0.45
+  ASCII database ....... 0.0000E+00    0.00     4.7000E-02    1.92
+  Contact algorithm .... 0.0000E+00    0.00     2.6000E-02    1.06
+  Rigid Bodies ......... 0.0000E+00    0.00     1.8000E-02    0.73
+  DEM .................. 0.0000E+00    0.00     2.3500E-01    9.60
+    DEM self contact ... 0.0000E+00    0.00     2.2700E-01    9.27
+  Time step size ....... 0.0000E+00    0.00     3.7000E-02    1.51
+  Group force file ..... 1.0000E+00   50.00     1.3000E-02    0.53
+  Others ............... 0.0000E+00    0.00     4.8000E-02    1.96
+  Misc. 1 .............. 0.0000E+00    0.00     2.5100E-01   10.25
+    Scale Masses ....... 0.0000E+00    0.00     5.0000E-03    0.20
+    Force Constraints .. 0.0000E+00    0.00     6.0000E-03    0.24
+    Force to Accel ..... 0.0000E+00    0.00     2.4000E-02    0.98
+    Update RB nodes .... 0.0000E+00    0.00     7.0000E-03    0.29
+  Misc. 2 .............. 0.0000E+00    0.00     7.5000E-02    3.06
+  Misc. 3 .............. 0.0000E+00    0.00     2.8400E-01   11.60
+  Misc. 4 .............. 0.0000E+00    0.00     4.3000E-02    1.76
+    Timestep Init ...... 0.0000E+00    0.00     2.1000E-02    0.86
+    Apply Loads ........ 0.0000E+00    0.00     1.4000E-02    0.57
+  ----------------------------------------------------------------
+  T o t a l s            2.0000E+00  100.00     2.4490E+00  100.00
+
+ Problem time       =    1.0000E-01
+ Problem cycle      =    117581
+ Total CPU time     =         2 seconds (   0 hours  0 minutes  2 seconds)
+ CPU time per zone cycle  =       8504.775 nanoseconds
+ Clock time per zone cycle=      10350.312 nanoseconds
+
+ Number of CPU's    1
+ NLQ used/max     136/  136
+ Start time   09/08/2025 19:40:43  
+ End time     09/08/2025 19:40:44  
+ Elapsed time       1 second  for  117581 cycles using  1 SMP thread 
+             (      0 hour   0 minute   1 second )
+
+ N o r m a l    t e r m i n a t i o n                          09/08/25 19:40:44
